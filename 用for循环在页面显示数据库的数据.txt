@@ -1,0 +1,4 @@
+1.ajax请求里边一定要加if判断，否则JSON字符串解析成对象会失败
+2.responseText返回来的数据是JSON字符串
+3.responseXML返回来的数据是XML形式的数据
+4.把数据输出到HTML页面的那句话要写在AJAX判断里边，循环之外
