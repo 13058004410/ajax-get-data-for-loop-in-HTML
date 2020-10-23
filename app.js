@@ -1,6 +1,6 @@
 const express=require('express');
 const bodyParser=require('body-parser');
-const data=require('./routes/data.js');
+const luyou=require('./routes/luyou.js');
 
 var app=express();
 
@@ -11,4 +11,4 @@ app.use(bodyParser.urlencoded({
 	extended:false
 }));
 
-app.use('/data',data);
+app.use('/luyou',luyou);
